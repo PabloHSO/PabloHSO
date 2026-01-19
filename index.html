@@ -13,8 +13,14 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 </head>
 <body>
+
+    <!-- ---------------- PARTICLES ---------------- -->
+    <div id="particles-js"></div>
 
     <!-- ---------------- HEADER ---------------- -->
     <header>
@@ -46,25 +52,46 @@
         <div class="cards">
             <div class="card">
                 <h3>🍔 Delivery System API</h3>
-                <p>Backend completo em FastAPI + SQLAlchemy. JWT Authentication, CRUD de pedidos e usuários, testes unitários com Pytest, documentação Swagger/OpenAPI.</p>
+                <p>Backend completo em FastAPI + SQLAlchemy. JWT Authentication, CRUD completo de pedidos e usuários, testes unitários com Pytest, documentação Swagger/OpenAPI.</p>
                 <a href="https://github.com/PabloHSO/delivery-api" target="_blank" class="btn-project">Ver Projeto</a>
             </div>
+            <!-- Adicione outros cards aqui -->
         </div>
     </section>
 
     <!-- ---------------- ESTATÍSTICAS ---------------- -->
     <section class="stats">
         <h2>📊 Estatísticas do GitHub</h2>
-        <img src="https://github-readme-stats.vercel.app/api?username=PabloHSO&show_icons=true&theme=radical" alt="GitHub Stats">
+        <div class="stats-container">
+            <img src="https://github-readme-stats.vercel.app/api?username=PabloHSO&show_icons=true&theme=radical" alt="GitHub Stats">
+        </div>
     </section>
 
     <!-- ---------------- CONTATO ---------------- -->
     <section id="contato" class="contact">
         <h2>📫 Contato</h2>
-        <p>Email: <a href="mailto:pablohenriques0603@gmail.com">pablohenriques0603@gmail.com</a></p>
-        <p>WhatsApp: <a href="https://wa.me/5511972798930">+55 (11) 97279-8930</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/pablohsilveira" target="_blank">linkedin.com/in/pablohsilveira</a></p>
-        <p>GitHub: <a href="https://github.com/PabloHSO" target="_blank">github.com/PabloHSO</a></p>
+        <div class="contact-cards">
+            <div class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <p>Email:</p>
+                <a href="mailto:pablohenriques0603@gmail.com">pablohenriques0603@gmail.com</a>
+            </div>
+            <div class="contact-card">
+                <i class="fab fa-whatsapp"></i>
+                <p>WhatsApp:</p>
+                <a href="https://wa.me/5511972798930">+55 (11) 97279-8930</a>
+            </div>
+            <div class="contact-card">
+                <i class="fab fa-linkedin"></i>
+                <p>LinkedIn:</p>
+                <a href="https://www.linkedin.com/in/pablohsilveira" target="_blank">linkedin.com/in/pablohsilveira</a>
+            </div>
+            <div class="contact-card">
+                <i class="fab fa-github"></i>
+                <p>GitHub:</p>
+                <a href="https://github.com/PabloHSO" target="_blank">github.com/PabloHSO</a>
+            </div>
+        </div>
     </section>
 
     <!-- ---------------- FOOTER ---------------- -->
@@ -72,6 +99,27 @@
         <p>Desenvolvido por Pablo Henrique Silveira &copy; 2026</p>
         <img src="images/eu6.jpg" alt="Minha foto">
     </footer>
+
+    <script>
+        /* ---------------- PARTICLES ---------------- */
+        particlesJS('particles-js',
+            {
+              "particles": {
+                "number": { "value": 60, "density": { "enable": true, "value_area": 800 } },
+                "color": { "value": "#ffffff" },
+                "shape": { "type": "circle" },
+                "opacity": { "value": 0.3, "random": true },
+                "size": { "value": 3, "random": true },
+                "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.2, "width": 1 },
+                "move": { "enable": true, "speed": 2 }
+              },
+              "interactivity": {
+                "events": { "onhover": { "enable": true, "mode": "repulse" } },
+                "modes": { "repulse": { "distance": 100 } }
+              }
+            }
+        );
+    </script>
 
 </body>
 </html>
