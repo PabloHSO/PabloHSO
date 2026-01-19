@@ -17,6 +17,8 @@ Movido por desafios, transformo problemas complexos em soluções simples, escal
 
 ## 🚀 Sobre mim
 
+Sou movido por **curiosidade e propósito**, transformo **tecnologia em soluções inteligentes**. Busco sempre gerar impacto real, construindo **pontes entre dados e decisões**, e entregando produtos que encantam pela **eficiência, simplicidade e confiabilidade**.
+
 - Profissional de tecnologia com experiência em **desenvolvimento backend, integração de sistemas, dados e cloud (AWS)**.
 - Atuação em **toda stack**: front-end, back-end, APIs, banco de dados, testes automatizados e documentação.
 - Experiência em empresas como **Itaú Unibanco e Itaú Gestão de Ativos (IGA)**.
@@ -81,9 +83,6 @@ Movido por desafios, transformo problemas complexos em soluções simples, escal
 - 🔗 [LinkedIn](https://www.linkedin.com/in/pablohsilveira)  
 - 🐙 [GitHub](https://github.com/PabloHSO)
 
----
 
-## 🎯 Sobre mim de forma resumida
 
-Sou movido por **curiosidade e propósito**, transformo **tecnologia em soluções inteligentes**. Busco sempre gerar impacto real, construindo **pontes entre dados e decisões**, e entregando produtos que encantam pela **eficiência, simplicidade e confiabilidade**.
 
