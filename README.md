@@ -17,6 +17,8 @@ Movido por desafios, transformo problemas complexos em soluções simples, escal
 
 ## 🚀 Sobre mim
 
+![GitPage - Pablo](https://pablohso.github.io/PabloHSO/)
+
 Sou movido por **curiosidade e propósito**, transformo **tecnologia em soluções inteligentes**. Busco sempre gerar impacto real, construindo **pontes entre dados e decisões**, e entregando produtos que encantam pela **eficiência, simplicidade e confiabilidade**.
 
 - Profissional de tecnologia com experiência em **desenvolvimento backend, integração de sistemas, dados e cloud (AWS)**.
@@ -70,6 +72,7 @@ Sou movido por **curiosidade e propósito**, transformo **tecnologia em soluçõ
   - Testes unitários com Pytest  
   - Documentação via Swagger / Redoc  
   - [Landing Page da API](https://github.com/PabloHSO/delivery-api)
+  - ![GitPage - Delivery API](https://pablohso.github.io/delivery-api/)
 
 - 💻 **Outros projetos** – Repositórios diversos mostrando habilidades em backend, APIs, automação e análise de dados  
   - [Meus projetos no GitHub](https://github.com/PabloHSO)
