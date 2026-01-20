@@ -29,6 +29,44 @@ header p { font-size:1.5em; margin-bottom:30px; text-shadow:1px 1px 5px rgba(0,0
 .social-icons a:hover { background-color:#555; transform:scale(1.05); }
 .social-icons i { margin-right:10px; font-size:1.3em; }
 
+/* Header com imagem ao lado */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1000px;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.header-text {
+    flex: 1;
+    min-width: 280px;
+}
+
+.header-image {
+    flex-shrink: 0;
+}
+
+.header-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #ff6b6b;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    animation: fadeIn 1.5s ease forwards;
+}
+
+/* Responsivo */
+@media(max-width:768px){
+    .header-content { flex-direction: column; text-align: center; }
+    .header-image img { width: 150px; height: 150px; margin-top: 20px; }
+    header h1{ font-size:2.5em; } 
+    header p{ font-size:1.2em; }
+}
+
 /* Features */
 .features { flex:1; padding:80px 20px; max-width:1000px; margin:0 auto; display:flex; flex-direction:column; gap:30px; background:rgba(255,255,255,0.05); border-radius:20px; margin-bottom:60px;}
 .feature-item { background-color:rgba(255,255,255,0.95); padding:25px 30px; border-radius:25px; box-shadow:0 10px 20px rgba(0,0,0,0.15); font-size:1.25em; display:flex; align-items:center; gap:15px; opacity:0; transform:translateY(30px); animation:fadeSlideIn 0.8s forwards; }
