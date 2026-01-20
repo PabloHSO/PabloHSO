@@ -51,7 +51,7 @@ header {
     transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 30px;
     max-width: 1000px;
     width: 90%;
     flex-wrap: wrap;
@@ -87,13 +87,17 @@ header {
     animation: textFade 1.7s ease forwards;
 }
 
+/* ---------------- DOCS BUTTONS ---------------- */
+.docs-buttons {
+    margin-bottom: 25px;
+}
 .docs-buttons a {
     text-decoration: none;
     color: #fff;
     background-color: #007bff;
     padding: 12px 25px;
     border-radius: 8px;
-    margin: 0 10px;
+    margin: 10px 15px; /* Aumentei o espaçamento */
     font-weight: 500;
     transition: all 0.3s ease;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
@@ -104,6 +108,7 @@ header {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
+/* ---------------- SOCIAL ICONS ---------------- */
 .social-icons {
     margin-top: 20px;
 }
@@ -114,7 +119,7 @@ header {
     color: #fff;
     padding: 12px 22px;
     border-radius: 12px;
-    margin: 0 8px;
+    margin: 10px 8px; /* Ajuste do espaçamento entre os botões */
     font-size: 1.1em;
     transition: all 0.3s ease;
 }
@@ -275,7 +280,7 @@ footer img {
 @keyframes gradientMove{0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}
 
 /* ---------------- RESPONSIVE ---------------- */
-@media(max-width: 768px){
+@media(max-width:768px){
     .header-overlay { flex-direction: column; text-align: center; }
     .header-text h1 { font-size: 2.2em; }
     .header-text p { font-size: 1em; }
