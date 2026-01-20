@@ -19,6 +19,8 @@ Movido por desafios, transformo problemas complexos em soluções simples, escal
 
 🌐 [Portfolio Pablo](https://pablohso.github.io/PabloHSO/)
 
+---
+
 ## 🚀 Sobre mim
 
 Sou movido por **curiosidade e propósito**, transformo **tecnologia em soluções inteligentes**. Busco sempre gerar impacto real, construindo **pontes entre dados e decisões**, e entregando produtos que encantam pela **eficiência, simplicidade e confiabilidade**.
