@@ -74,7 +74,7 @@ Sou movido por **curiosidade e propósito**, transformo **tecnologia em soluçõ
   - Testes unitários com Pytest  
   - Documentação via Swagger / Redoc  
   - [Landing Page da API](https://github.com/PabloHSO/delivery-api)
-  - [Delivery API - GitPage]((https://pablohso.github.io/delivery-api/))
+  - [Delivery API - GitPage](https://pablohso.github.io/delivery-api/)
 
 - 💻 **Outros projetos** – Repositórios diversos mostrando habilidades em backend, APIs, automação e análise de dados  
   - [Meus projetos no GitHub](https://github.com/PabloHSO)
