@@ -15,9 +15,10 @@ Movido por desafios, transformo problemas complexos em soluções simples, escal
 
 ---
 
-## 🌐 **GitHub Pages:**  
-https://pablohso.github.io/PabloHSO/
-https://pablohso.github.io/delivery-api/
+## 📌 Minhas GitPages
+
+🌐 [Portfolio Pablo](https://pablohso.github.io/PabloHSO/)
+🌐 [Delivery API - GitPage](https://pablohso.github.io/PabloHSO/)
 
 ## 🚀 Sobre mim
 
