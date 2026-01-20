@@ -63,7 +63,7 @@ Sou movido por **curiosidade e propósito**, transformo **tecnologia em soluçõ
 ## 📊 Estatísticas do GitHub
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=PabloHSO&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PabloHSO&layout=compact&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PabloHSO&layout=compact&langs_count=8&theme=radical)
 
 ---
 
