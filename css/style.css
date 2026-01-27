@@ -1,304 +1,167 @@
-/* ---------------- BODY ---------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(135deg, #ff6b6b, #f8f9fa, #6b6bff, #f8f9fa);
-    background-size: 400% 400%;
-    animation: gradientMove 20s ease infinite;
-    color: #333;
-    position: relative;
-    overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+  color: #eaeaea;
+  background: radial-gradient(circle at top, #1f1f3a, #0d0d1a);
+  overflow-x: hidden;
 }
 
-/* ---------------- PARTICLES ---------------- */
+/* PARTICLES */
 #particles-js {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  position: fixed;
+  inset: 0;
+  z-index: -1;
 }
 
-/* ---------------- HEADER ---------------- */
-header {
-    text-align: center;
-    padding: 0;
+/* HERO */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
 }
 
-.header-banner-container {
-    position: relative;
-    width: 100%;
+.hero h1 {
+  font-size: 3.2rem;
+  line-height: 1.2;
 }
 
-.banner {
-    width: 100%;
-    max-height: 350px;
-    object-fit: cover;
-    border-radius: 20px;
-    display: block;
-    animation: bannerFade 2s ease forwards;
+.hero h1 span {
+  background: linear-gradient(90deg, #ff6b6b, #6b6bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.header-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    max-width: 1000px;
-    width: 90%;
-    flex-wrap: wrap;
+.hero p {
+  font-size: 1.3rem;
+  margin: 25px 0;
+  color: #ccc;
 }
 
-.profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 4px solid #ff6b6b;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    transition: transform 0.5s, box-shadow 0.5s;
-}
-.profile-img:hover {
-    transform: scale(1.1) rotate(-3deg);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+.hero-buttons a {
+  margin: 10px;
+  padding: 14px 28px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
 }
 
-.header-text {
-    flex: 1;
-    color: #fff;
+.btn-primary {
+  background: #ff6b6b;
+  color: #fff;
 }
 
-.header-text h1 {
-    font-size: 2.8em;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-    animation: textFade 1.5s ease forwards;
-}
-.header-text p {
-    font-size: 1.2em;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-    margin: 10px 0 30px 0;
-    animation: textFade 1.7s ease forwards;
+.btn-secondary {
+  border: 2px solid #ff6b6b;
+  color: #ff6b6b;
 }
 
-/* ---------------- DOCS BUTTONS ---------------- */
-.docs-buttons {
-    margin-bottom: 25px;
-}
-.docs-buttons a {
-    text-decoration: none;
-    color: #fff;
-    background-color: #007bff;
-    padding: 12px 25px;
-    border-radius: 8px;
-    margin: 10px 15px; /* Aumentei o espaçamento */
-    font-weight: 500;
-    transition: all 0.3s ease;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-}
-.docs-buttons a:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+.hero-socials a {
+  margin: 0 10px;
+  font-size: 1.6rem;
+  color: #fff;
 }
 
-/* ---------------- SOCIAL ICONS ---------------- */
-.social-icons {
-    margin-top: 20px;
-}
-.social-icons a {
-    display: inline-flex;
-    align-items: center;
-    background-color: #333;
-    color: #fff;
-    padding: 12px 22px;
-    border-radius: 12px;
-    margin: 10px 8px; /* Ajuste do espaçamento entre os botões */
-    font-size: 1.1em;
-    transition: all 0.3s ease;
-}
-.social-icons a:hover {
-    background-color: #555;
-    transform: scale(1.05);
-}
-.social-icons i {
-    margin-right: 10px;
-    font-size: 1.3em;
+/* SECTIONS */
+section {
+  max-width: 1100px;
+  margin: 0 auto 120px;
+  padding: 0 20px;
 }
 
-/* ---------------- FEATURES / SOBRE ---------------- */
-.features {
-    flex: 1;
-    padding: 80px 20px;
-    max-width: 1000px;
-    margin: 0 auto 60px auto;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 20px;
-}
-.feature-item {
-    background-color: rgba(255, 255, 255, 0.95);
-    padding: 25px 30px;
-    border-radius: 25px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-    font-size: 1.25em;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    opacity: 0;
-    transform: translateY(30px);
-    animation: fadeSlideIn 0.8s forwards;
-}
-.feature-item:nth-child(1) { animation-delay: 0.5s; }
-.feature-item:nth-child(2) { animation-delay: 0.8s; }
-.feature-item:nth-child(3) { animation-delay: 1.1s; }
-.feature-item:nth-child(4) { animation-delay: 1.4s; }
-.feature-item:nth-child(5) { animation-delay: 1.7s; }
-.feature-item i { font-size: 1.6em; color: #ff6b6b; }
-
-/* ---------------- PROJECTS ---------------- */
-.projects {
-    padding: 80px 20px;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.03);
-    border-radius: 20px;
-    margin-bottom: 60px;
-}
-.projects h2 {
-    font-size: 2.5em;
-    margin-bottom: 40px;
-    color: #ff6b6b;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-}
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-.card {
-    background-color: #fff;
-    padding: 25px;
-    border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    width: 300px;
-    text-align: left;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
-}
-.card h3 { color: #ff6b6b; margin-bottom: 10px; }
-.card p { font-size: 0.95em; color: #555; margin-bottom: 15px; }
-
-/* ---------------- STATS ---------------- */
-.stats {
-    text-align: center;
-    padding: 80px 20px;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 20px;
-    margin-bottom: 60px;
+h2 {
+  font-size: 2.4rem;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
+/* SKILLS */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  gap: 25px;
+}
+
+.skill-card {
+  background: rgba(255,255,255,0.05);
+  padding: 25px;
+  border-radius: 18px;
+  transition: transform .3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+}
+
+/* PROJECTS */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background: rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.project-card .stack {
+  display: block;
+  margin: 15px 0;
+  color: #aaa;
+}
+
+.project-card a {
+  color: #ff6b6b;
+  font-weight: 600;
+}
+
+/* STATS */
 .stats-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
 }
 
 .stats-container img {
-    max-width: 420px;
-    width: 100%;
-    border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  max-width: 420px;
+  border-radius: 20px;
 }
 
-/* ---------------- CONTACT ---------------- */
-.contact {
-    text-align: center;
-    padding: 80px 20px;
-    background: rgba(0, 0, 0, 0.02);
-    border-radius: 20px;
-    margin-bottom: 60px;
-}
-.contact h2 {
-    font-size: 2.5em;
-    margin-bottom: 40px;
-    color: #ff6b6b;
-}
-.contact-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-.contact-card {
-    background: #fff;
-    padding: 25px 20px;
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    text-align: center;
-    width: 220px;
-    transition: transform 0.3s;
-}
-.contact-card:hover {
-    transform: translateY(-8px);
-}
-.contact-card i {
-    font-size: 1.8em;
-    color: #ff6b6b;
-    margin-bottom: 10px;
-    display: block;
+/* CONTACT */
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
-/* ---------------- FOOTER ---------------- */
+.contact-grid a {
+  background: rgba(255,255,255,0.05);
+  padding: 18px 22px;
+  border-radius: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* FOOTER */
 footer {
-    background-color: #343a40;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 40px;
-    flex-wrap: wrap;
-}
-footer img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 3px solid #ff6b6b;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 40px 20px;
+  color: #aaa;
 }
 
-/* ---------------- ANIMATIONS ---------------- */
-@keyframes fadeInDown {0%{opacity:0; transform:translateY(-30px);}100%{opacity:1; transform:translateY(0);}}
-@keyframes fadeInUp {0%{opacity:0; transform:translateY(30px);}100%{opacity:1; transform:translateY(0);}}
-@keyframes fadeSlideIn {0%{opacity:0; transform:translateY(30px);}100%{opacity:1; transform:translateY(0);}}
-@keyframes fadeIn {0%{opacity:0;}100%{opacity:1;}}
-@keyframes bannerFade {0%{opacity:0; transform:scale(1.05);}100%{opacity:1; transform:scale(1);}}
-@keyframes textFade {0%{opacity:0; transform:translateY(-20px);}100%{opacity:1; transform:translateY(0);}}
-@keyframes gradientMove{0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}
-
-/* ---------------- RESPONSIVE ---------------- */
+/* RESPONSIVE */
 @media(max-width:768px){
-    .header-overlay { flex-direction: column; text-align: center; }
-    .header-text h1 { font-size: 2.2em; }
-    .header-text p { font-size: 1em; }
-    .docs-buttons a { display: block; margin: 10px auto; }
-    .social-icons { margin-top: 15px; }
-    .features { padding: 40px 15px; }
-    .cards { flex-direction: column; align-items: center; }
-    .contact-cards { flex-direction: column; align-items: center; }
-    footer { flex-direction: column; text-align: center; }
-    footer img { margin-top: 15px; }
+  .hero h1 { font-size: 2.4rem; }
+  .hero p { font-size: 1.1rem; }
 }
