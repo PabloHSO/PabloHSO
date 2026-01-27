@@ -1,186 +1,143 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-
-  <title>Pablo Henrique Silveira | Backend Engineer</title>
-
-  <!-- SEO -->
-  <meta name="description"
-        content="Pablo Henrique Silveira — Backend Engineer especializado em Python, APIs, dados, cloud e sistemas escaláveis." />
-  <meta name="author" content="Pablo Henrique Silveira" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Pablo Henrique Silveira | Backend Engineer">
-  <meta property="og:description" content="Building scalable & data-driven systems">
-  <meta property="og:type" content="website">
+  <title>Pablo Silveira | Backend Engineer</title>
+  <meta name="description" content="Backend Engineer especializado em Python, APIs, dados e sistemas escaláveis. Portfólio profissional com foco em impacto real." />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
   <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
 
-  <!-- Main CSS -->
-  <link rel="stylesheet" href="css/style.css">
-
-  <!-- VANTA / THREE -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
 </head>
-
 <body>
 
 <!-- ================= HERO ================= -->
 <section id="hero">
   <div id="vanta-bg"></div>
 
-  <div class="hero-content">
+  <div class="hero-content fade-in">
     <h1>Backend Engineer</h1>
     <h2>building scalable & data-driven systems</h2>
-
     <p>
       Transformo código, dados e automação em soluções confiáveis,
       observáveis e orientadas a impacto real.
     </p>
 
     <div class="hero-actions">
-      <a href="#projects" class="btn primary">
-        🚀 Projetos
-      </a>
-
-      <a href="#contact" class="btn ghost">
-        📬 Contato
-      </a>
-
-      <a href="cv/Pablo-Henrique-Silveira.pdf" class="btn outline" download>
-        📄 Download CV
-      </a>
-
-      <a href="resume.html" class="btn ghost">
-        📘 Resume
-      </a>
+      <a href="#projects" class="btn primary"><i class="ri-rocket-line"></i> Projetos</a>
+      <a href="#contact" class="btn ghost"><i class="ri-mail-line"></i> Contato</a>
+      <a href="resume.html" class="btn outline"><i class="ri-download-line"></i> Download CV</a>
     </div>
   </div>
 </section>
 
 <!-- ================= ABOUT ================= -->
-<section id="about" class="section">
+<section class="section dark reveal" id="about">
   <div class="container">
-    <h3>👨‍💻 Sobre mim</h3>
-
+    <h3>👋 Sobre mim</h3>
     <p>
-      Sou <strong>Backend / Fullstack Engineer</strong> com foco em Python,
-      APIs REST, dados e observabilidade. Atuo do desenho da arquitetura
-      à produção, sempre priorizando performance, qualidade e impacto
-      no negócio.
-    </p>
-
-    <p>
-      Experiência sólida em ambientes corporativos de alta exigência,
-      trabalhando com sistemas críticos, analytics, automações e cloud (AWS).
+      Sou Backend / Fullstack Engineer com foco em Python, APIs REST,
+      dados e observabilidade. Atuo do desenho da arquitetura até produção,
+      priorizando performance, qualidade e impacto no negócio.
     </p>
   </div>
 </section>
 
+<!-- ================= IMPACT ================= -->
+<section class="section gradient reveal">
+  <div class="container">
+    <h3>🎯 Impacto & Resultados</h3>
+
+    <div class="impact-grid">
+      <div class="impact-card">
+        <h4>⚡ Performance</h4>
+        <p>APIs com latência P95 monitorada e otimizada via métricas reais.</p>
+      </div>
+
+      <div class="impact-card">
+        <h4>📊 Observabilidade</h4>
+        <p>Prometheus + Grafana em produção com KPIs acionáveis.</p>
+      </div>
+
+      <div class="impact-card">
+        <h4>🏗️ Arquitetura</h4>
+        <p>Sistemas escaláveis, desacoplados e orientados a domínio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ================= PROJECTS ================= -->
-<section id="projects" class="section dark">
+<section class="section dark reveal" id="projects">
   <div class="container">
     <h3>🚀 Projetos em Destaque</h3>
 
     <div class="projects-grid">
       <div class="project-card">
-        <h4>📊 DuckDB Analytics API</h4>
-        <p>
-          Embedded Analytics API focada em performance e observabilidade.
-          Métricas reais, latência p95 e dashboards.
-        </p>
+        <h4>🦆 DuckDB Analytics API</h4>
+        <p>Embedded Analytics API focada em performance e observabilidade.</p>
         <span>FastAPI • DuckDB • Prometheus • Grafana</span>
-        <a href="https://github.com/PabloHSO/duckdb-analytics-api" target="_blank">
-          Ver Projeto →
-        </a>
+        <a href="#">Ver Projeto →</a>
       </div>
 
       <div class="project-card">
-        <h4>📦 Delivery System API</h4>
-        <p>
-          Backend completo para sistema de delivery com autenticação JWT,
-          CRUD de pedidos e testes automatizados.
-        </p>
+        <h4>🍔 Delivery System API</h4>
+        <p>Backend completo com autenticação JWT e testes automatizados.</p>
         <span>FastAPI • SQLAlchemy • JWT • Pytest</span>
-        <a href="https://github.com/PabloHSO" target="_blank">
-          Ver Projeto →
-        </a>
+        <a href="#">Ver Projeto →</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ================= WHY HIRE ME ================= -->
-<section id="why-me" class="section gradient">
+<!-- ================= TIMELINE ================= -->
+<section class="section gradient reveal">
   <div class="container">
-    <h3>💡 Why hire me?</h3>
+    <h3>🧠 Trajetória Profissional</h3>
 
-    <p>
-      Não escrevo apenas código — construo soluções.
-      Tenho visão de produto, mentalidade orientada a dados
-      e forte responsabilidade técnica.
-    </p>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span>2024</span>
+        <p>Projetos de analytics, observabilidade e arquitetura backend.</p>
+      </div>
 
-    <p>
-      Meu foco é criar sistemas escaláveis, observáveis
-      e sustentáveis, que realmente entreguem valor ao negócio.
-    </p>
+      <div class="timeline-item">
+        <span>2022–2023</span>
+        <p>Sistemas corporativos, automações e dados em ambiente crítico.</p>
+      </div>
+
+      <div class="timeline-item">
+        <span>Início</span>
+        <p>Fundação sólida em engenharia, dados e resolução de problemas.</p>
+      </div>
+    </div>
   </div>
 </section>
 
 <!-- ================= CONTACT ================= -->
-<section id="contact" class="section">
+<section class="section dark reveal" id="contact">
   <div class="container">
-    <h3>📬 Contato</h3>
+    <h3>📫 Contato</h3>
 
     <div class="contact-links">
-      <a href="mailto:seuemail@email.com">
-        <i class="fa-solid fa-envelope"></i>
-        Email
-      </a>
-
-      <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank">
-        <i class="fa-brands fa-linkedin"></i>
-        LinkedIn
-      </a>
-
-      <a href="https://github.com/PabloHSO" target="_blank">
-        <i class="fa-brands fa-github"></i>
-        GitHub
-      </a>
+      <a href="#"><i class="ri-mail-line"></i>Email</a>
+      <a href="#"><i class="ri-linkedin-line"></i>LinkedIn</a>
+      <a href="#"><i class="ri-github-line"></i>GitHub</a>
     </div>
   </div>
 </section>
 
 <footer>
-  © 2026 — Pablo Henrique Silveira
+  © 2026 • Pablo Silveira • Backend Engineer
 </footer>
 
-<!-- ================= SCRIPTS ================= -->
-<script>
-  VANTA.DOTS({
-    el: "#vanta-bg",
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: false,
-    minHeight: 200.00,
-    minWidth: 200.00,
-    scale: 1.00,
-    scaleMobile: 1.00,
-    color: 0x6366f1,
-    color2: 0x0ea5e9,
-    backgroundColor: 0x050812,
-    size: 3.0,
-    spacing: 35.0
-  });
-</script>
-
+<script src="js/animations.js"></script>
 </body>
 </html>
