@@ -273,7 +273,7 @@ footer {
   }
 }
 
-/* ================= ANIMATIONS ================= */
+/* ================= ANIMATIONS ================= */ 
 .fade-in {
   opacity: 0;
   transform: translateY(24px);
