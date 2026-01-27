@@ -1,95 +1,171 @@
-# 👋 Olá, eu sou Pablo Henrique Silveira
+<!-- ===================== -->
+<!--        BANNER         -->
+<!-- ===================== -->
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.95+-green?style=for-the-badge&logo=fastapi)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-1.4+-orange?style=for-the-badge&logo=sqlalchemy)
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazon-aws)
-![Pytest](https://img.shields.io/badge/Tests-Pytest-brightgreen?style=for-the-badge&logo=pytest)
-![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?style=for-the-badge&logo=linkedin)
-![GitHub](https://img.shields.io/badge/GitHub-Projetos-black?style=for-the-badge&logo=github)
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1685558593626-686907d7ee4b?q=80&w=1470&auto=format&fit=crop" 
+       alt="Backend Engineering Banner" 
+       width="100%" 
+       style="border-radius:20px;" />
+</p>
 
-![Banner](https://images.unsplash.com/photo-1685558593626-686907d7ee4b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+<h1 align="center">👋 Olá, eu sou Pablo Henrique Silveira</h1>
 
-Sou **desenvolvedor backend e fullstack**, focado em **Python, FastAPI, APIs REST, bancos de dados e automação inteligente**.  
-Movido por desafios, transformo problemas complexos em soluções simples, escaláveis e de impacto real para pessoas e negócios.
-
----
-
-## 📌 Portifolio GitPage
-
-🌐 [Portfolio Pablo](https://pablohso.github.io/PabloHSO/)
+<p align="center">
+  <b>Backend / Fullstack Engineer • Python • APIs • Dados • Cloud</b><br>
+  Construo sistemas escaláveis, observáveis e orientados a dados
+</p>
 
 ---
 
-## 🚀 Sobre mim
+## 📌 Badges & Stack
 
-Sou movido por **curiosidade e propósito**, transformo **tecnologia em soluções inteligentes**. Busco sempre gerar impacto real, construindo **pontes entre dados e decisões**, e entregando produtos que encantam pela **eficiência, simplicidade e confiabilidade**.
-
-- Profissional de tecnologia com experiência em **desenvolvimento backend, integração de sistemas, dados e cloud (AWS)**.
-- Atuação em **toda stack**: front-end, back-end, APIs, banco de dados, testes automatizados e documentação.
-- Experiência em empresas como **Itaú Unibanco e Itaú Gestão de Ativos (IGA)**.
-- Aplicação prática de **Inteligência Artificial e automação** para gerar valor real.
-- Paixão por criar soluções que sejam **úteis, confiáveis e inovadoras**.
-
----
-
-## 💼 Experiências Profissionais
-
-- **Desenvolvedor Fullstack – Itaú Gestão de Ativos (IGA)**  
-  *Ago/2023 – Set/2025*  
-  Desenvolvimento completo de soluções em front-end, back-end e integração de APIs. Testes automatizados, pipelines de dados, soluções em cloud (AWS) e projetos de Inteligência Artificial.
-
-- **Analista de Dados e Negócios Jr. – Itaú Unibanco**  
-  *Set/2022 – Ago/2023*  
-  Construção de dashboards, indicadores estratégicos, pipelines ETL/ELT e automação de processos. Apoio em decisões de negócio com análise de dados.
-
-- **Estagiário de TI – Itaú Unibanco**  
-  *Nov/2021 – Set/2022*  
-  Sustentação de sistemas, automação com Python/VBA, otimização de fluxos e melhoria de UX/UI.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/FastAPI-Production-009688?style=for-the-badge&logo=fastapi" />
+  <img src="https://img.shields.io/badge/DuckDB-Analytics-black?style=for-the-badge&logo=duckdb" />
+  <img src="https://img.shields.io/badge/SQLAlchemy-ORM-red?style=for-the-badge&logo=sqlalchemy" />
+  <img src="https://img.shields.io/badge/PostgreSQL-Data-blue?style=for-the-badge&logo=postgresql" />
+  <img src="https://img.shields.io/badge/Prometheus-Metrics-orange?style=for-the-badge&logo=prometheus" />
+  <img src="https://img.shields.io/badge/Grafana-Observability-orange?style=for-the-badge&logo=grafana" />
+  <img src="https://img.shields.io/badge/AWS-Cloud-232F3E?style=for-the-badge&logo=amazon-aws" />
+  <img src="https://img.shields.io/badge/Tests-Pytest-success?style=for-the-badge&logo=pytest" />
+  <img src="https://img.shields.io/badge/CI/CD-GitHub%20Actions-black?style=for-the-badge&logo=githubactions" />
+</p>
 
 ---
 
-## 📚 Formação e Certificações
+## 🌐 Portfólio Online
 
-- **Sistemas de Informação** – Universidade São Judas Tadeu (2020–2025)  
-- **Técnico em Informática** – Colégio Clóvis Bevilácqua (2017–2019)  
-- **Praticitioner – Generative AI & D&A Foundation (Itaú Unibanco)**  
-- **Power BI Básico ao Avançado** – Udemy  
-- **AWS Certified Cloud Practitioner (CLF-C02)** – Udemy  
-- **Big Data Fundamentos 3.0** – Data Science Academy  
-- **Python Básico ao Avançado** – Udemy
+- 🚀 **GitPage (Portfólio):** https://pablohso.github.io/PabloHSO/
+- 🐙 **GitHub:** https://github.com/PabloHSO
+- 💼 **LinkedIn:** https://linkedin.com/in/pablohsilveira
 
 ---
 
-## 📊 Estatísticas do GitHub
+## 🧠 Quem eu sou
 
-![Stats](https://github-readme-stats.vercel.app/api?username=PabloHSO&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PabloHSO&layout=compact&langs_count=8&theme=radical)
+Sou **Desenvolvedor Backend e Fullstack**, com forte foco em **Python, FastAPI, APIs REST, dados e observabilidade**.  
+Trabalho transformando **problemas complexos em soluções simples, escaláveis e confiáveis**, sempre com preocupação real em:
+
+- Performance
+- Qualidade de código
+- Testabilidade
+- Observabilidade
+- Impacto no negócio
+
+Tenho experiência prática em **ambientes corporativos de alta exigência**, atuando desde o desenho da arquitetura até a entrega em produção.
+
+---
+
+## 🚀 O que eu entrego
+
+- APIs REST modernas e performáticas
+- Arquiteturas backend limpas e escaláveis
+- Sistemas orientados a dados e analytics
+- Autenticação, autorização e segurança
+- Observabilidade real (métricas, dashboards, monitoramento)
+- Testes automatizados e CI/CD
+- Integração com cloud (AWS)
+
+---
+
+## 💼 Experiência Profissional
+
+### 🏦 Desenvolvedor Fullstack — Itaú Gestão de Ativos (IGA)  
+**Ago/2023 – Set/2025**
+
+- Desenvolvimento de soluções end-to-end (frontend, backend e APIs)
+- Construção de pipelines de dados e automações
+- Implementação de testes automatizados
+- Projetos com **cloud AWS** e **Inteligência Artificial aplicada**
+- Atuação direta em produtos críticos para o negócio
+
+---
+
+### 📊 Analista de Dados & Negócios Jr. — Itaú Unibanco  
+**Set/2022 – Ago/2023**
+
+- Construção de dashboards e indicadores estratégicos
+- Pipelines ETL / ELT
+- Automação de processos analíticos
+- Suporte à tomada de decisão baseada em dados
+
+---
+
+### 💻 Estagiário de TI — Itaú Unibanco  
+**Nov/2021 – Set/2022**
+
+- Sustentação e melhoria de sistemas
+- Automação com Python e VBA
+- Otimização de fluxos operacionais
+- Melhoria de UX/UI em soluções internas
 
 ---
 
 ## 🚀 Projetos em Destaque
 
-- 🍔 **Delivery System API** – Backend completo em FastAPI + SQLAlchemy  
-  - JWT Authentication  
-  - CRUD completo de pedidos e usuários  
-  - Testes unitários com Pytest  
-  - Documentação via Swagger / Redoc  
-  - [Landing Page da API](https://github.com/PabloHSO/delivery-api)
-  - [Delivery API - GitPage](https://pablohso.github.io/delivery-api/)
+### 🦆 DuckDB Analytics API
+**Embedded Analytics API com foco em performance e observabilidade**
 
-- 💻 **Outros projetos** – Repositórios diversos mostrando habilidades em backend, APIs, automação e análise de dados  
-  - [Meus projetos no GitHub](https://github.com/PabloHSO)
+- FastAPI + DuckDB (OLAP embedded)
+- Prometheus + Grafana
+- Métricas, latência P95 e dashboards
+- Docker + CI com GitHub Actions
+- Arquitetura limpa e modular
+
+🔗 Repositório: https://github.com/PabloHSO/duckdb-analytics-api  
+🌐 GitPage: https://pablohso.github.io/duckdb-analytics-api/
+
+---
+
+### 🍔 Delivery System API
+**Backend completo para sistema de delivery**
+
+- FastAPI + SQLAlchemy
+- Autenticação JWT
+- CRUD completo de usuários e pedidos
+- Testes unitários e de integração
+- Documentação automática (Swagger / OpenAPI)
+
+🔗 Repositório: https://github.com/PabloHSO/delivery-api  
+🌐 GitPage: https://pablohso.github.io/delivery-api/
+
+---
+
+## 📚 Formação & Certificações
+
+- 🎓 **Sistemas de Informação** — Universidade São Judas Tadeu (2020–2025)
+- 🎓 **Técnico em Informática** — Colégio Clóvis Bevilácqua
+- 🧠 Generative AI & Data & Analytics Foundation — Itaú
+- ☁️ AWS Cloud Practitioner (CLF-C02)
+- 📊 Power BI (Básico ao Avançado)
+- 🐍 Python (Básico ao Avançado)
+- 📈 Big Data Fundamentos 3.0 — DSA
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=PabloHSO&show_icons=true&theme=radical" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PabloHSO&layout=compact&langs_count=8&theme=radical" />
+</p>
 
 ---
 
 ## 📫 Contato
 
-- 📧 E-mail: pablohenriques0603@gmail.com  
-- 📞 WhatsApp: +55 (11) 97279-8930  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/pablohsilveira)  
-- 🐙 [GitHub](https://github.com/PabloHSO)
+- 📧 Email: **pablohenriques0603@gmail.com**
+- 📱 WhatsApp: **+55 (11) 97279-8930**
+- 💼 LinkedIn: https://linkedin.com/in/pablohsilveira
+- 🐙 GitHub: https://github.com/PabloHSO
 
+---
 
-
-
+<p align="center">
+  <i>“Construindo soluções que unem engenharia, dados e impacto real.”</i>
+</p>
