@@ -4,7 +4,7 @@
 
 <p align="center">
   <img 
-    src="images/banner_eu.png"
+    src="images/banner_eu1.png"
     alt="Backend Engineering Banner"
     style="max-width:100%; border-radius:18px;"
   />
