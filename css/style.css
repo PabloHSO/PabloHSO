@@ -1,157 +1,184 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 body {
+  margin: 0;
   font-family: 'Inter', sans-serif;
-  background: radial-gradient(circle at top, #111827, #020617);
   color: #e5e7eb;
-  line-height: 1.6;
+  background: #020617;
+  overflow-x: hidden;
 }
 
-#particles-js {
+/* VANTA */
+#vanta-bg {
   position: fixed;
   inset: 0;
   z-index: -1;
 }
 
-/* ================= HERO ================= */
+/* HERO */
 .hero {
   min-height: 100vh;
-  text-align: center;
   padding: 120px 20px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
 }
 
 .hero h1 {
-  font-size: 3.5rem;
-  font-weight: 700;
+  font-size: 3.2rem;
+  font-weight: 800;
 }
 
 .hero h2 {
-  font-size: 1.8rem;
-  color: #ff5c7a;
-  margin: 10px 0 20px;
+  font-size: 2rem;
+  color: #7c7cff;
 }
 
 .hero p {
-  max-width: 650px;
-  margin: auto;
-  opacity: 0.9;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  opacity: 0.85;
 }
 
-.hero-actions {
+.hero-buttons {
   margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
+/* BUTTONS */
 .btn {
-  padding: 14px 28px;
+  padding: 14px 26px;
   border-radius: 10px;
   text-decoration: none;
-  margin: 0 10px;
   font-weight: 600;
+  transition: all .3s ease;
 }
 
-.btn.primary {
-  background: #ff5c7a;
+.primary {
+  background: #7c7cff;
   color: #020617;
 }
 
-.btn.secondary {
+.secondary {
   border: 1px solid #7c7cff;
   color: #7c7cff;
 }
 
-/* ================= SECTIONS ================= */
+.ghost {
+  border: 1px dashed #64748b;
+  color: #cbd5f5;
+}
+
+.btn:hover {
+  transform: translateY(-4px);
+}
+
+/* SECTIONS */
 .section {
-  padding: 90px 20px;
   max-width: 1100px;
   margin: auto;
+  padding: 100px 20px;
 }
 
 .section h3 {
-  text-align: center;
   font-size: 2.2rem;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
-/* ================= STACK ================= */
-.stack-grid {
+.section-text {
+  max-width: 750px;
+  line-height: 1.8;
+  opacity: .9;
+}
+
+/* WHY */
+.highlight {
+  background: rgba(255,255,255,0.02);
+  border-radius: 20px;
+}
+
+.why-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
   gap: 25px;
 }
 
-.stack-card {
+.why-card {
   background: rgba(255,255,255,0.05);
-  padding: 25px;
-  border-radius: 16px;
-  text-align: center;
+  padding: 30px;
+  border-radius: 18px;
   transition: transform .3s;
 }
 
-.stack-card:hover {
-  transform: translateY(-8px);
+.why-card:hover {
+  transform: translateY(-10px);
 }
 
-/* ================= PROJECTS ================= */
-.project-grid {
+.why-card i {
+  font-size: 1.8rem;
+  color: #7c7cff;
+}
+
+/* PROJECTS */
+.projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  gap: 25px;
 }
 
 .project-card {
-  background: rgba(255,255,255,0.04);
+  background: rgba(255,255,255,0.05);
   padding: 30px;
   border-radius: 18px;
 }
 
 .project-card span {
   display: block;
-  margin: 15px 0;
-  color: #7c7cff;
-  font-size: 0.9rem;
+  font-size: .85rem;
+  opacity: .7;
 }
 
 .project-card a {
-  color: #ff5c7a;
-  text-decoration: none;
-  font-weight: 600;
+  display: inline-block;
+  margin-top: 15px;
+  color: #7c7cff;
 }
 
-/* ================= STATS ================= */
-.stats-grid {
+/* CONTACT */
+.contact-grid {
   display: flex;
-  justify-content: center;
-  gap: 25px;
   flex-wrap: wrap;
-}
-
-.stats-grid img {
-  border-radius: 14px;
-  max-width: 420px;
-}
-
-/* ================= CONTACT ================= */
-.contact-links {
-  display: flex;
-  justify-content: center;
   gap: 20px;
-  flex-wrap: wrap;
 }
 
-.contact-links a {
-  background: rgba(255,255,255,0.06);
-  padding: 14px 22px;
+.contact-grid a {
+  background: rgba(255,255,255,0.05);
+  padding: 15px 22px;
   border-radius: 12px;
-  color: #e5e7eb;
   text-decoration: none;
+  color: #e5e7eb;
 }
 
+/* FOOTER */
 footer {
   text-align: center;
-  padding: 30px;
-  opacity: 0.6;
+  padding: 40px;
+  opacity: .6;
+}
+
+/* REVEAL ANIMATION */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all .8s ease;
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
 }
