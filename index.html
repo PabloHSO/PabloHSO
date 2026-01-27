@@ -2,149 +2,162 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <title>Pablo Henrique Silveira | Backend Engineer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pablo Henrique Silveira | Backend Engineer</title>
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
-
-  <!-- Particles -->
-  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
 
-<div id="particles-js"></div>
+  <!-- VANTA BACKGROUND -->
+  <div id="vanta-bg"></div>
 
-<!-- ================= HERO ================= -->
-<header class="hero">
-  <h1>Backend Engineer</h1>
-  <h2>building scalable & data-driven systems</h2>
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Backend Engineer</h1>
+    <h2>building scalable & data-driven systems</h2>
+    <p>
+      Transformo código, dados e automação em soluções confiáveis,
+      observáveis e orientadas a impacto real.
+    </p>
 
-  <p>
-    Transformo código, dados e automação em soluções confiáveis,
-    observáveis e orientadas a impacto real.
-  </p>
-
-  <div class="hero-actions">
-    <a href="#projects" class="btn primary">🚀 Ver Projetos</a>
-    <a href="#contact" class="btn secondary">📫 Contato</a>
-  </div>
-</header>
-
-<!-- ================= ABOUT ================= -->
-<section class="section about">
-  <h3>👨‍💻 Sobre mim</h3>
-  <p>
-    Sou <strong>Backend / Fullstack Engineer</strong> com foco em
-    <strong>Python, APIs REST, dados e observabilidade</strong>.
-    Atuo desde o desenho da arquitetura até produção,
-    sempre priorizando performance, qualidade e impacto no negócio.
-  </p>
-
-  <p>
-    Experiência sólida em <strong>ambientes corporativos de alta exigência</strong>,
-    trabalhando com sistemas críticos, analytics, automações e cloud (AWS).
-  </p>
-</section>
-
-<!-- ================= STACK ================= -->
-<section class="section stack">
-  <h3>🧠 Tecnologias & Expertise</h3>
-
-  <div class="stack-grid">
-    <div class="stack-card">
-      <h4>Backend</h4>
-      <p>Python, FastAPI, Flask<br/>APIs REST, JWT, SQLAlchemy</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn primary">🚀 Ver Projetos</a>
+      <a href="#contact" class="btn secondary">📩 Contato</a>
+      <a href="assets/Pablo_Henrique_Silveira_CV.pdf" class="btn ghost" download>
+        📄 Download CV
+      </a>
     </div>
+  </section>
 
-    <div class="stack-card">
-      <h4>Data & Analytics</h4>
-      <p>DuckDB, SQL, ETL / ELT<br/>Power BI, Data Modeling</p>
+  <!-- SOBRE -->
+  <section class="section reveal">
+    <h3>👨‍💻 Sobre mim</h3>
+    <p class="section-text">
+      Sou <strong>Backend / Fullstack Engineer</strong> com foco em
+      <strong>Python, APIs REST, dados e observabilidade</strong>.
+      Atuo desde o desenho da arquitetura até produção,
+      priorizando performance, qualidade e impacto no negócio.
+    </p>
+    <p class="section-text">
+      Experiência sólida em ambientes corporativos de alta exigência,
+      trabalhando com sistemas críticos, analytics, automações e cloud (AWS).
+    </p>
+  </section>
+
+  <!-- WHY HIRE ME -->
+  <section class="section highlight reveal">
+    <h3>💡 Why Hire Me</h3>
+
+    <div class="why-grid">
+      <div class="why-card">
+        <i class="fas fa-layer-group"></i>
+        <h4>Visão de Arquitetura</h4>
+        <p>Construo sistemas escaláveis, limpos e fáceis de evoluir.</p>
+      </div>
+
+      <div class="why-card">
+        <i class="fas fa-chart-line"></i>
+        <h4>Dados & Observabilidade</h4>
+        <p>APIs orientadas a métricas reais, performance e confiabilidade.</p>
+      </div>
+
+      <div class="why-card">
+        <i class="fas fa-robot"></i>
+        <h4>Automação Inteligente</h4>
+        <p>Menos tarefas manuais, mais eficiência e valor.</p>
+      </div>
+
+      <div class="why-card">
+        <i class="fas fa-cloud"></i>
+        <h4>Cloud Ready</h4>
+        <p>Docker, CI/CD e AWS prontos para produção.</p>
+      </div>
     </div>
+  </section>
 
-    <div class="stack-card">
-      <h4>Cloud & DevOps</h4>
-      <p>AWS, Docker, CI/CD<br/>GitHub Actions</p>
+  <!-- PROJETOS -->
+  <section id="projects" class="section reveal">
+    <h3>🚀 Projetos em Destaque</h3>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <h4>🦆 DuckDB Analytics API</h4>
+        <p>
+          Embedded Analytics API focada em performance e observabilidade,
+          com métricas reais e dashboards.
+        </p>
+        <span>FastAPI • DuckDB • Prometheus • Grafana</span>
+        <a href="https://github.com/PabloHSO/duckdb-analytics-api" target="_blank">
+          Ver Projeto →
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h4>🍔 Delivery System API</h4>
+        <p>
+          Backend completo para sistema de delivery com autenticação JWT
+          e testes automatizados.
+        </p>
+        <span>FastAPI • SQLAlchemy • JWT • Pytest</span>
+        <a href="https://github.com/PabloHSO/delivery-api" target="_blank">
+          Ver Projeto →
+        </a>
+      </div>
     </div>
+  </section>
 
-    <div class="stack-card">
-      <h4>Frontend</h4>
-      <p>Angular, TypeScript<br/>HTML5, CSS3</p>
+  <!-- CONTACT -->
+  <section id="contact" class="section reveal">
+    <h3>📫 Contato</h3>
+
+    <div class="contact-grid">
+      <a href="mailto:pablohenriques0603@gmail.com"><i class="fas fa-envelope"></i>Email</a>
+      <a href="https://wa.me/5511972798930" target="_blank"><i class="fab fa-whatsapp"></i>WhatsApp</a>
+      <a href="https://linkedin.com/in/pablohsilveira" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+      <a href="https://github.com/PabloHSO" target="_blank"><i class="fab fa-github"></i>GitHub</a>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ================= PROJECTS ================= -->
-<section class="section projects" id="projects">
-  <h3>🚀 Projetos em Destaque</h3>
+  <footer>
+    <p>© 2026 • Pablo Henrique Silveira — Backend Engineer</p>
+  </footer>
 
-  <div class="project-grid">
-    <div class="project-card">
-      <h4>🦆 DuckDB Analytics API</h4>
-      <p>
-        Embedded Analytics API focada em performance e observabilidade.
-        Métricas reais, latência P95 e dashboards.
-      </p>
-      <span>FastAPI • DuckDB • Prometheus • Grafana</span>
-      <a href="https://github.com/PabloHSO/duckdb-analytics-api" target="_blank">Ver Projeto →</a>
-    </div>
+  <!-- THREE + VANTA -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
 
-    <div class="project-card">
-      <h4>🍔 Delivery System API</h4>
-      <p>
-        Backend completo para sistema de delivery com autenticação JWT,
-        CRUD de pedidos e usuários, testes automatizados.
-      </p>
-      <span>FastAPI • SQLAlchemy • JWT • Pytest</span>
-      <a href="https://github.com/PabloHSO/delivery-api" target="_blank">Ver Projeto →</a>
-    </div>
-  </div>
-</section>
+  <script>
+    VANTA.NET({
+      el: "#vanta-bg",
+      color: 0x7c7cff,
+      backgroundColor: 0x020617,
+      points: 14.0,
+      maxDistance: 22.0,
+      spacing: 18.0
+    });
+  </script>
 
-<!-- ================= STATS ================= -->
-<section class="section stats">
-  <h3>📊 GitHub em números</h3>
+  <!-- ANIMATION SCRIPT -->
+  <script>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        }
+      });
+    }, { threshold: 0.15 });
 
-  <div class="stats-grid">
-    <img src="https://github-readme-stats.vercel.app/api?username=PabloHSO&show_icons=true&theme=tokyonight" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PabloHSO&layout=compact&theme=tokyonight" />
-  </div>
-</section>
-
-<!-- ================= CONTACT ================= -->
-<section class="section contact" id="contact">
-  <h3>📫 Contato</h3>
-
-  <div class="contact-links">
-    <a href="mailto:pablohenriques0603@gmail.com"><i class="fa-solid fa-envelope"></i>Email</a>
-    <a href="https://wa.me/5511972798930" target="_blank"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
-    <a href="https://linkedin.com/in/pablohsilveira" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
-    <a href="https://github.com/PabloHSO" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a>
-  </div>
-</section>
-
-<footer>
-  © 2026 • Pablo Henrique Silveira
-</footer>
-
-<script>
-particlesJS('particles-js', {
-  particles: {
-    number: { value: 60 },
-    color: { value: "#7c7cff" },
-    opacity: { value: 0.3 },
-    size: { value: 2 },
-    move: { enable: true, speed: 1 }
-  }
-});
-</script>
+    document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+  </script>
 
 </body>
 </html>
