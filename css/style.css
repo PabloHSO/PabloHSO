@@ -220,47 +220,57 @@ body {
 }
 
 /* =====================
-   CONTACT
+   GLOBAL FOOTER FIX
 ===================== */
-.contact-links {
+body {
+  min-height: 100vh;
   display: flex;
-  flex-wrap: wrap;
-  gap: 22px;
-  margin-top: 24px;
+  flex-direction: column;
 }
 
-.contact-links a {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  font-weight: 600;
-  text-decoration: none;
-  color: #e5e7eb;
-  padding: 12px 18px;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.05);
-  transition: all 0.25s ease;
-}
-
-.contact-links a i {
-  font-size: 1.2rem;
-  color: #818cf8;
-}
-
-.contact-links a:hover {
-  background: rgba(99, 102, 241, 0.18);
-}
-
-/* =====================
-   FOOTER
-===================== */
 footer {
+  margin-top: auto;
   text-align: center;
   padding: 28px 12px;
   font-size: 0.85rem;
   color: #94a3b8;
   background: #020617;
+}
 
+/* =====================
+   SECTION ICONS
+===================== */
+.section h3 i {
+  font-size: 1.6rem;
+  margin-right: 10px;
+  color: #818cf8;
+  vertical-align: middle;
+}
+
+.impact-card h4 i {
+  margin-right: 8px;
+  color: #818cf8;
+}
+
+/* =====================
+   CONTACT PROFILE
+===================== */
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-profile {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 32px 40px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow:
+    0 20px 40px rgba(0,0,0,0.35),
+    inset 0 1px 0 rgba(255,255,255,0.05);
 }
 
 .footer-avatar {
@@ -269,8 +279,52 @@ footer {
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #6366f1;
+  box-shadow: 0 0 25px rgba(99,102,241,0.45);
 }
 
+.contact-info h4 {
+  font-size: 1.4rem;
+  margin-bottom: 4px;
+}
+
+.contact-info span {
+  display: block;
+  font-size: 0.95rem;
+  color: #a5b4fc;
+  margin-bottom: 14px;
+}
+
+.contact-links {
+  display: flex;
+  gap: 16px;
+}
+
+.contact-links a {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(99,102,241,0.15);
+  border: 1px solid rgba(99,102,241,0.35);
+  color: #c7d2fe;
+  font-size: 1.3rem;
+  transition: all 0.25s ease;
+}
+
+.contact-links a:hover {
+  transform: translateY(-4px);
+  background: linear-gradient(135deg, #6366f1, #818cf8);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .contact-profile {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 
 /* =====================
