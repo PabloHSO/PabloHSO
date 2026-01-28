@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Pablo Silveira | Backend Engineer</title>
+  <meta name="description"
+        content="Backend Engineer specialized in Python, APIs, data and scalable systems. Professional portfolio focused on real impact.">
+
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- VANTA -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="nav-container">
+
+    <div class="nav-brand">
+      <span class="brand-dot"></span>
+      <span class="brand-name">Pablo Silveira</span>
+    </div>
+
+    <nav class="nav-menu">
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="resume_en.html" class="nav-link">Resume</a>
+      <a href="#contact" class="nav-btn">
+        <i class="ri-mail-line"></i>
+        Contact
+      </a>
+    </nav>
+
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+  <div id="vanta-bg"></div>
+
+  <div class="hero-content fade-in">
+    <h1>Backend Engineer</h1>
+    <h2>scalable • data-driven • observable systems</h2>
+
+    <p>
+      I build reliable backend systems by transforming code, data
+      and automation into scalable, high-performance solutions
+      with real business impact.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#projects" class="btn primary">
+        <i class="ri-rocket-line"></i> Projects
+      </a>
+
+      <a href="resume_en.html" class="btn outline">
+        <i class="ri-file-text-line"></i> Resume
+      </a>
+
+      <a href="#contact" class="btn ghost">
+        <i class="ri-mail-line"></i> Contact
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section dark reveal">
+  <div class="container">
+    <h3><i class="ri-user-3-line"></i> About Me</h3>
+    <p>
+      Backend / Fullstack Engineer focused on Python, FastAPI,
+      REST APIs, data and observability.
+      I work from architecture design to production,
+      always driven by business impact.
+    </p>
+  </div>
+</section>
+
+<!-- WHY ME -->
+<section class="section gradient reveal">
+  <div class="container">
+    <h3><i class="ri-lightbulb-flash-line"></i> Why Hire Me?</h3>
+
+    <div class="impact-grid">
+      <div class="impact-card">
+        <h4><i class="ri-code-box-line"></i> Purpose-driven engineering</h4>
+        <p>I don't write code just to write code — I solve real problems.</p>
+      </div>
+
+      <div class="impact-card">
+        <h4><i class="ri-bar-chart-2-line"></i> Data & Observability</h4>
+        <p>Metrics, KPIs and monitoring are part of the product.</p>
+      </div>
+
+      <div class="impact-card">
+        <h4><i class="ri-stack-line"></i> Scalable Architecture</h4>
+        <p>Clean, decoupled systems designed to grow.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section dark reveal">
+  <div class="container">
+    <h3><i class="ri-rocket-2-line"></i> Featured Projects</h3>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <h4>DuckDB Analytics API</h4>
+        <p>Embedded analytics API focused on performance and observability.</p>
+        <span>FastAPI • DuckDB • Prometheus • Grafana</span>
+        <a href="https://github.com/PabloHSO/duckdb-analytics-api">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <h4>Delivery System API</h4>
+        <p>Complete backend with JWT, tests and OpenAPI documentation.</p>
+        <span>FastAPI • SQLAlchemy • JWT • Pytest</span>
+        <a href="https://github.com/PabloHSO/delivery-api">View Project →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section dark reveal">
+  <div class="container">
+    <h3><i class="ri-send-plane-line"></i> Contact</h3>
+
+    <img src="images/eu6.jpg" alt="Pablo Silveira" class="footer-avatar"/>
+
+    <div class="contact-links">
+      <a href="mailto:pablohenriques0603@gmail.com">
+        <i class="ri-mail-fill"></i> Email
+      </a>
+      <a href="https://linkedin.com/in/pablohsilveira" target="_blank">
+        <i class="ri-linkedin-fill"></i> LinkedIn
+      </a>
+      <a href="https://github.com/PabloHSO" target="_blank">
+        <i class="ri-github-fill"></i> GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 • Pablo Silveira • Backend Engineer
+</footer>
+
+<script src="js/animations.js"></script>
+
+<script>
+  VANTA.DOTS({
+    el: "#vanta-bg",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    color: 0x6366f1,
+    color2: 0x22d3ee,
+    backgroundColor: 0x0b0f19,
+    size: 3,
+    spacing: 35
+  });
+</script>
+
+</body>
+</html>
