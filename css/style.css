@@ -252,21 +252,15 @@ body {
 }
 
 /* =====================
-   FOOTER PROFILE
+   FOOTER
 ===================== */
-.footer-profile {
-  background: linear-gradient(
-    180deg,
-    rgba(5,8,18,0.9),
-    #020617
-  );
-  padding: 60px 20px 30px;
+footer {
   text-align: center;
-}
+  padding: 28px 12px;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  background: #020617;
 
-.footer-container {
-  max-width: 800px;
-  margin: 0 auto;
 }
 
 .footer-avatar {
@@ -278,39 +272,7 @@ body {
   margin-bottom: 16px;
 }
 
-.footer-info h4 {
-  font-size: 1.3rem;
-  margin-bottom: 6px;
-}
 
-.footer-info p {
-  font-size: 0.95rem;
-  color: #a5b4fc;
-  margin-bottom: 14px;
-}
-
-.footer-socials {
-  display: flex;
-  justify-content: center;
-  gap: 18px;
-}
-
-.footer-socials a {
-  font-size: 1.4rem;
-  color: #818cf8;
-  transition: transform 0.25s ease;
-}
-
-.footer-socials a:hover {
-  transform: translateY(-4px);
-}
-
-.footer-copy {
-  display: block;
-  margin-top: 28px;
-  font-size: 0.8rem;
-  color: #94a3b8;
-}
 
 /* =====================
    RESPONSIVE
