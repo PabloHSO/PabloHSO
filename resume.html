@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
@@ -160,6 +160,44 @@
       color: #818cf8;
     }
 
+    /* ================= CERTIFICATIONS ================= */
+    .cert-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 26px;
+    }
+
+    .cert-card {
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 20px;
+      padding: 26px;
+      transition: all .3s ease;
+    }
+
+    .cert-card:hover {
+      transform: translateY(-6px);
+      border-color: #6366f1;
+      box-shadow: 0 18px 40px rgba(0,0,0,.4);
+    }
+
+    .cert-card h4 {
+      font-size: 1.05rem;
+      margin-bottom: 6px;
+    }
+
+    .cert-card span {
+      font-size: .85rem;
+      color: #9ca3af;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .cert-card p {
+      font-size: .9rem;
+      color: #c7d2fe;
+    }
+
     /* ================= WHY ME ================= */
     .why-me {
       background: linear-gradient(
@@ -170,7 +208,6 @@
       padding: 50px;
       border-radius: 26px;
       border: 1px solid rgba(255,255,255,.1);
-      box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
     }
 
     /* ================= FOOTER ================= */
@@ -187,10 +224,6 @@
       .resume-header {
         grid-template-columns: 1fr;
         text-align: center;
-      }
-
-      .resume-actions {
-        margin-top: 20px;
       }
     }
   </style>
@@ -227,25 +260,22 @@
     <h3><i class="ri-briefcase-4-line"></i> Experiência</h3>
 
     <div class="timeline">
-
       <div class="timeline-item">
         <h4>Desenvolvedor Fullstack — Itaú Gestão de Ativos</h4>
         <span>Ago/2023 – Set/2025 · Tempo integral · Híbrido</span>
         <p>
-          Desenvolvimento de soluções digitais end-to-end, integrando backend,
-          frontend, dados, cloud e automações. Atuação com APIs REST em Python,
-          pipelines ETL, projetos em AWS e iniciativas de IA, sempre com foco
-          em performance, escalabilidade e impacto no negócio.
+          Desenvolvimento de soluções end-to-end com Python, APIs REST,
+          dados, cloud (AWS) e automações, com foco em escalabilidade
+          e impacto no negócio.
         </p>
       </div>
 
       <div class="timeline-item">
         <h4>Analista de Dados Estratégico — Itaú Unibanco</h4>
-        <span>Set/2022 – Ago/2023 · Tempo integral · Híbrido</span>
+        <span>Set/2022 – Ago/2023 · Tempo integral</span>
         <p>
-          Transformação de dados em decisões estratégicas por meio de
-          arquiteturas escaláveis, pipelines ETL/ELT, dashboards executivos
-          e automação de processos analíticos.
+          Pipelines ETL/ELT, arquiteturas analíticas, dashboards executivos
+          e automação de processos de dados.
         </p>
       </div>
 
@@ -253,11 +283,9 @@
         <h4>Estagiário de TI — Itaú Unibanco</h4>
         <span>Nov/2021 – Set/2022 · Estágio</span>
         <p>
-          Automação de processos com Python e VBA, suporte a sistemas,
-          pipelines de dados e melhorias de usabilidade com foco em eficiência.
+          Automação com Python e VBA, suporte a sistemas e pipelines de dados.
         </p>
       </div>
-
     </div>
   </section>
 
@@ -268,11 +296,11 @@
     <div class="skills-grid">
       <div class="skill-card">
         <h4>Backend</h4>
-        <p>Python, FastAPI, Flask, JWT, SQLAlchemy</p>
+        <p>Python, FastAPI, Flask, SQLAlchemy, JWT</p>
       </div>
       <div class="skill-card">
         <h4>Dados & Analytics</h4>
-        <p>DuckDB, SQL, ETL/ELT, Power BI, Data Modeling</p>
+        <p>SQL, DuckDB, ETL/ELT, Power BI</p>
       </div>
       <div class="skill-card">
         <h4>Cloud & DevOps</h4>
@@ -285,15 +313,65 @@
     </div>
   </section>
 
+  <!-- CERTIFICATIONS -->
+  <section>
+    <h3><i class="ri-award-line"></i> Licenças & Certificações</h3>
+
+    <div class="cert-grid">
+
+      <div class="cert-card">
+        <h4>AWS Certified Cloud Practitioner (CLF-C02)</h4>
+        <span>Udemy · Out/2025</span>
+        <p>AWS, Lambda, S3, DynamoDB, CloudFormation, CloudFront</p>
+      </div>
+
+      <div class="cert-card">
+        <h4>Practitioner — D&A Foundation</h4>
+        <span>Itaú Unibanco · Jun/2025</span>
+        <p>Data Analytics, Machine Learning, Data Modeling, AI</p>
+      </div>
+
+      <div class="cert-card">
+        <h4>Practitioner — Generative AI</h4>
+        <span>Itaú Unibanco · Jun/2025</span>
+        <p>Generative AI, Agents, Prompt Engineering, Copilot</p>
+      </div>
+
+      <div class="cert-card">
+        <h4>Power BI Completo — Básico ao Avançado</h4>
+        <span>Udemy · Set/2021</span>
+        <p>Power BI, Análise de Dados, Dashboards</p>
+      </div>
+
+      <div class="cert-card">
+        <h4>Big Data Fundamentos 3.0</h4>
+        <span>Data Science Academy · Set/2021</span>
+        <p>Big Data, Mineração de Dados, Analytics</p>
+      </div>
+
+      <div class="cert-card">
+        <h4>Programação em Python — Básico ao Avançado</h4>
+        <span>Udemy · Set/2021</span>
+        <p>Python, Pytest, Testes Unitários, Lógica</p>
+      </div>
+
+      <div class="cert-card">
+        <h4>Excel — Básico ao Avançado</h4>
+        <span>Udemy · Set/2020</span>
+        <p>Microsoft Excel, Análise de Dados</p>
+      </div>
+
+    </div>
+  </section>
+
   <!-- WHY ME -->
   <section>
     <h3><i class="ri-rocket-2-line"></i> Why Hire Me</h3>
     <div class="why-me">
       <p>
-        Não escrevo apenas código — construo soluções.
-        Tenho mentalidade orientada a produto, dados e impacto real.
-        Atuo com responsabilidade técnica, visão de negócio
-        e foco em sistemas escaláveis, observáveis e sustentáveis.
+        Mentalidade orientada a produto, dados e impacto real.
+        Responsabilidade técnica, visão de negócio
+        e foco em sistemas escaláveis e sustentáveis.
       </p>
     </div>
   </section>
