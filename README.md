@@ -1,218 +1,343 @@
-<!-- ===================== -->
-<!--        BANNER         -->
-<!-- ===================== -->
+<!-- ===================================================== -->
+<!--                        HERO                           -->
+<!-- ===================================================== -->
 
 <p align="center">
+  <img src="images/banner_eu1.png" width="100%" />
+</p>
+
+<h2 align="left"> <strong> Contruindo com propósito </strong></h2>
+
+<div align="center">
+
+<a href="mailto:pablohenriques0603@gmail.com">
+  <img src="https://img.shields.io/badge/Email-informational?style=for-the-badge&logo=gmail&logoColor=white&color=EA4335" />
+</a>
+
+<a href="https://linkedin.com/in/pablohsilveira">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="https://github.com/PabloHSO">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://pablohso.github.io/PabloHSO/index.html">
+  <img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
+
+</div>
+
+<hr/>
+
+<!-- ===================================================== -->
+<!--                    TRANSFORMANDO                      -->
+<!-- ===================================================== -->
+
+<h3>🚀 Transformando problemas em soluções escaláveis</h3>
+
+<p>
+Backend focado em APIs robustas, arquitetura limpa e sistemas orientados a dados.
+Experiência com ambientes corporativos críticos e cultura de produção.
+</p>
+
+<hr/>
+
+<br/>
+
+<!-- ===================================================== -->
+<!--                       SOBRE MIM                       -->
+<!-- ===================================================== -->
+
+<h2>🧠 Sobre mim</h2>
+
+<ul>
+  <li><strong>Atuação:</strong> Backend & Full Stack Engineer</li>
+  <li><strong>Especialidade:</strong> APIs escaláveis, microsserviços e integração</li>
+  <li><strong>Infra & DevOps:</strong> AWS, Docker e CI/CD</li>
+  <li><strong>Observabilidade:</strong> Prometheus & Grafana</li>
+  <li><strong>Arquitetura:</strong> Clean Architecture & boas práticas</li>
+</ul>
+
+<br/>
+
+<pre>
+const pablo = {
+  cargo: "Software Engineer | Backend & Full Stack",
+  foco: ["APIs robustas", "Performance", "Cloud", "Observabilidade"],
+  stack: ["Python", "FastAPI", "PostgreSQL"],
+  ambiente: "Sistemas corporativos críticos",
+  objetivo: "Construir soluções escaláveis e orientadas a métricas"
+}
+</pre>
+
+<!-- ===================================================== -->
+<!--                    VISÃO GERAL GITHUB                  -->
+<!-- ===================================================== -->
+
+<!-- VISÃO GERAL DO GITHUB -->
+<h2 align="center">📊 Visão Geral do GitHub</h2>
+
+<div align="center">
+
+  <!-- GitHub Stats -->
   <img 
-    src="images/banner_eu1.png"
-    alt="Backend Engineering Banner"
-    style="max-width:100%; border-radius:18px;"
+    height="180em" 
+    src="https://github-readme-stats.vercel.app/api?username=PabloHSO&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"
   />
+
+  <!-- Top Languages -->
+  <img 
+    height="180em" 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=PabloHSO&layout=compact&theme=tokyonight&hide_border=true"
+  />
+
+</div>
+
+<br>
+
+<div align="center">
+
+  <!-- GitHub Streak -->
+  <img 
+    height="180em"
+    src="https://streak-stats.demolab.com?user=PabloHSO&theme=tokyonight&hide_border=true"
+  />
+
+</div>
+<!-- ===================================================== -->
+<!--                    STACK TECNOLÓGICA                  -->
+<!-- ===================================================== -->
+
+<h2>🧩 Stack tecnológica</h2>
+
+<h3>💻 Linguagens</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,ts,js,html,css" />
 </p>
 
-<h1 align="center">Pablo Henrique Silveira</h1>
+<h3>⚙ Backend & Arquitetura</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs" />
+</p>
+
+<h3>🗄 Banco de dados</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mysql" />
+</p>
+
+<h3>☁ Cloud, DevOps & Ferramentas</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,docker,githubactions,git" />
+</p>
+
+<hr/>
+
+<!-- ===================================================== -->
+<!--               DISTRIBUIÇÃO DE EXPERTISE               -->
+<!-- ===================================================== -->
+
+<h2>📈 Distribuição de Expertise</h2>
+
+<table>
+<tr>
+  <th>Área de Atuação</th>
+  <th>Proficiência</th>
+  <th>Destaque Principal</th>
+</tr>
+<tr>
+  <td>Backend APIs</td>
+  <td>95%</td>
+  <td>Arquitetura & Performance</td>
+</tr>
+<tr>
+  <td>Dados & SQL</td>
+  <td>90%</td>
+  <td>Modelagem & Otimização</td>
+</tr>
+<tr>
+  <td>Cloud & DevOps</td>
+  <td>85%</td>
+  <td>Deploy & Containerização</td>
+</tr>
+<tr>
+  <td>Frontend</td>
+  <td>75%</td>
+  <td>Angular & TypeScript</td>
+</tr>
+</table>
+
+<hr/>
+
+<!-- ===================================================== -->
+<!--                  MEUS DIFERENCIAIS                    -->
+<!-- ===================================================== -->
+
+<h2>✨ Meus Diferenciais</h2>
+
+<table>
+<tr>
+  <th>Característica</th>
+  <th>Aplicação Prática</th>
+</tr>
+<tr>
+  <td>Engenharia Orientada a Produção</td>
+  <td>Sistemas preparados para escala e monitoramento</td>
+</tr>
+<tr>
+  <td>Decisão Baseada em Métricas</td>
+  <td>Uso de logs, métricas e observabilidade real</td>
+</tr>
+<tr>
+  <td>Arquitetura Limpa</td>
+  <td>Separação clara de responsabilidades</td>
+</tr>
+<tr>
+  <td>Resiliência Profissional</td>
+  <td>Entrega consistente sob pressão</td>
+</tr>
+</table>
+
+<hr/>
+
+<!-- ===================================================== -->
+<!--                 ATIVIDADE & GRÁFICOS                  -->
+<!-- ===================================================== -->
+
+<h2>📊 Atividade & Contribuições</h2>
 
 <p align="center">
-  <b>Backend / Fullstack Engineer</b><br/>
-  Python • APIs • Data • Cloud • Observability
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PabloHSO&theme=react-dark&hide_border=true" />
+</p>
+
+<hr/>
+
+<!-- ===================================================== -->
+<!--               PROJETOS EM DESTAQUE                    -->
+<!-- ===================================================== -->
+
+<h2 align="center">🚀 Projetos em Destaque</h2>
+
+<br/>
+
+<div align="center">
+  <table width="100%" cellspacing="20">
+    <tr>
+      <td width="50%" valign="top">
+
+  <h3>🦆 DuckDB Analytics API</h3>
+  
+  <p><strong>Stack:</strong><br/>
+  FastAPI • DuckDB • Prometheus • Grafana • Docker
+  </p>
+  
+  <p>
+  API orientada a métricas com foco em performance e observabilidade.
+  Monitoramento de latência em tempo real e arquitetura pronta para produção.
+  </p>
+  
+  <p>
+  <a href="https://github.com/PabloHSO/duckdb-analytics-api">
+    🔗 Ver Repositório
+  </a>
+  </p>
+
+  </td>
+
+  <td width="50%" valign="top">
+
+<h3>🍔 Delivery System API</h3>
+
+<p><strong>Stack:</strong><br/>
+FastAPI • SQLAlchemy • JWT • Pytest
+</p>
+
+<p>
+Backend completo com autenticação JWT, arquitetura limpa
+e cobertura de testes automatizados.
+</p>
+
+<p>
+<a href="https://github.com/PabloHSO/delivery-api">
+  🔗 Ver Repositório
+</a>
+</p>
+
+  </td>
+  </tr>
+  </table>
+</div>
+
+<hr/>
+
+<!-- ===================================================== -->
+<!--               ABERTO A OPORTUNIDADES                  -->
+<!-- ===================================================== -->
+
+<h2 align="center">💼 Aberto a Oportunidades</h2>
+
+<div align="center">
+
+<table width="70%">
+  <tr>
+  <td align="center">
+  
+  <strong>Backend Engineer</strong><br/>
+  <strong>Software Engineer</strong><br/>
+  <strong>Backend & Full Stack Developer</strong>
+  
+  </td>
+  </tr>
+</table>
+
+<br/>
+
+<p align="center">
+  Disponível para trabalho Remoto
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=PabloHSO&color=0e75b6&style=flat"/>
-  <img src="https://img.shields.io/github/followers/PabloHSO?style=flat"/>
-  <img src="https://img.shields.io/github/stars/PabloHSO?style=flat"/>
+🌎 Remoto <br/>
 </p>
+
+</div>
 
 <hr/>
 
-<!-- ===================== -->
-<!--      QUICK SUMMARY    -->
-<!-- ===================== -->
+<!-- ===================================================== -->
+<!--                    CONTATO PROFISSIONAL               -->
+<!-- ===================================================== -->
 
-<h2>🧭 Resumo Profissional</h2>
+<h2 align="center">🤝 Conecte-se comigo</h2>
 
-<ul>
-  <li>💻 <b>Atuação:</b> Backend & Fullstack Engineer</li>
-  <li>📊 <b>Especialidade:</b> APIs, Dados, Observabilidade</li>
-  <li>☁️ <b>Ambiente:</b> Cloud AWS & Docker</li>
-  <li>🏦 <b>Experiência:</b> Sistemas críticos em ambiente corporativo (Itaú)</li>
-</ul>
+<br/>
 
-<hr/>
+<div align="center">
 
-<!-- ===================== -->
-<!--    CORE STACK         -->
-<!-- ===================== -->
+<a href="mailto:pablohenriques0603@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-informational?style=for-the-badge&logo=gmail&logoColor=white&color=EA4335" />
+</a>
 
-<h2>🧰 Core Backend Stack</h2>
+<a href="https://linkedin.com/in/pablohsilveira">
+  <img src="https://img.shields.io/badge/LinkedIn-Perfil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
 
-<p>
-  <img src="https://img.shields.io/badge/Python-Advanced-3776AB?style=for-the-badge&logo=python"/>
-  <img src="https://img.shields.io/badge/FastAPI-Production-009688?style=for-the-badge&logo=fastapi"/>
-  <img src="https://img.shields.io/badge/Flask-APIs-000000?style=for-the-badge&logo=flask"/>
-  <img src="https://img.shields.io/badge/REST%20API-Design-0052CC?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/JWT-Security-2ECC71?style=for-the-badge"/>
-</p>
+<a href="https://github.com/PabloHSO">
+  <img src="https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-<hr/>
+<a href="https://pablohso.github.io/PabloHSO/index.html">
+  <img src="https://img.shields.io/badge/Portfólio-Website-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
 
-<!-- ===================== -->
-<!--   DATA & ANALYTICS    -->
-<!-- ===================== -->
+</div>
 
-<h2>📊 Data, Analytics & Observability</h2>
+<br/>
 
-<p>
-  <img src="https://img.shields.io/badge/DuckDB-Embedded%20OLAP-000000?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/SQL-Advanced-336791?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-Data-336791?style=for-the-badge&logo=postgresql"/>
-  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql"/>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/ETL%2FELT-Pipelines-2ECC71?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Prometheus-Metrics-E6522C?style=for-the-badge&logo=prometheus"/>
-  <img src="https://img.shields.io/badge/Grafana-Dashboards-F46800?style=for-the-badge&logo=grafana"/>
-</p>
-
-<hr/>
-
-<!-- ===================== -->
-<!--   CLOUD & DEVOPS      -->
-<!-- ===================== -->
-
-<h2>☁️ Cloud, DevOps & Infra</h2>
-
-<p>
-  <img src="https://img.shields.io/badge/AWS-Cloud-232F3E?style=for-the-badge&logo=amazonaws"/>
-  <img src="https://img.shields.io/badge/Docker-Containers-2496ED?style=for-the-badge&logo=docker"/>
-  <img src="https://img.shields.io/badge/Git-GitFlow-F05032?style=for-the-badge&logo=git"/>
-  <img src="https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-000000?style=for-the-badge&logo=githubactions"/>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/AWS%20Lambda-Serverless-FF9900?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/S3-Storage-569A31?style=for-the-badge"/>
-</p>
-
-<hr/>
-
-<!-- ===================== -->
-<!--   FRONTEND            -->
-<!-- ===================== -->
-
-<h2>🎨 Frontend & Web</h2>
-
-<p>
-  <img src="https://img.shields.io/badge/HTML5-Markup-E34F26?style=for-the-badge&logo=html5"/>
-  <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3"/>
-  <img src="https://img.shields.io/badge/JavaScript-Web-F7DF1E?style=for-the-badge&logo=javascript"/>
-  <img src="https://img.shields.io/badge/TypeScript-Typed-3178C6?style=for-the-badge&logo=typescript"/>
-  <img src="https://img.shields.io/badge/Angular-Framework-DD0031?style=for-the-badge&logo=angular"/>
-</p>
-
-<hr/>
-
-<!-- ===================== -->
-<!--   QUALITY             -->
-<!-- ===================== -->
-
-<h2>🧪 Qualidade & Arquitetura</h2>
-
-<p>
-  <img src="https://img.shields.io/badge/Pytest-Testing-0A9EDC?style=for-the-badge&logo=pytest"/>
-  <img src="https://img.shields.io/badge/Testes-Unit%20%26%20Integration-2ECC71?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Clean%20Architecture-Design-34495E?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Microservices-Architecture-9B59B6?style=for-the-badge"/>
-</p>
-
-<hr/>
-
-<!-- ===================== -->
-<!--   PROJECTS            -->
-<!-- ===================== -->
-
-<h2>⭐ Projetos em Destaque</h2>
-
-<h3>🦆 DuckDB Analytics API</h3>
-
-<ul>
-  <li>FastAPI + DuckDB (OLAP Embedded)</li>
-  <li>Métricas reais e latência P95</li>
-  <li>Observabilidade com Prometheus & Grafana</li>
-  <li>Docker + CI/CD</li>
-</ul>
-
-<p>
-  🔗 <a href="https://github.com/PabloHSO/duckdb-analytics-api">Repositório</a>| 
-  🌐 <a href="https://pablohso.github.io/duckdb-analytics-api/">GitHub Pages</a>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=PabloHSO&style=for-the-badge&color=blue" />
 </p>
 
 <br/>
 
-<h3>🍔 Delivery System API</h3>
-
-<ul>
-  <li>FastAPI + SQLAlchemy</li>
-  <li>JWT Authentication</li>
-  <li>CRUD completo</li>
-  <li>Testes automatizados</li>
-</ul>
-
-<p>
-  🔗 <a href="https://github.com/PabloHSO/delivery-api">Repositório</a> |
-  🌐 <a href="https://pablohso.github.io/delivery-api/">GitHub Pages</a>
-</p>
-
-<hr/>
-
-<!-- ===================== -->
-<!--   STATS               -->
-<!-- ===================== -->
-
-<h2>📊 GitHub Numbers</h2>
-
-<p align="center">
-  <picture>
-    <source
-      srcset="https://github-readme-stats.vercel.app/api?username=PabloHSO&show_icons=true&rank_icon=github&custom_title=Pablo%20GitHub%20Stats&theme=one_dark_pro"
-      media="(prefers-color-scheme: dark)"
-    />
-    <source
-      srcset="https://github-readme-stats.vercel.app/api?username=PabloHSO&show_icons=true&rank_icon=github&custom_title=Pablo%20GitHub%20Stats"
-      media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
-    />
-    <img src="https://github-readme-stats.vercel.app/api?username=PabloHSO&show_icons=true&rank_icon=github&custom_title=Pablo%20GitHub%20Stats" />
-  </picture>
-
-  <picture>
-    <source
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=PabloHSO&layout=compact&theme=one_dark_pro"
-      media="(prefers-color-scheme: dark)"
-    />
-    <source
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=PabloHSO&layout=compact"
-      media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
-    />
-     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PabloHSO&layout=compact"/>
-  </picture>
-
-</p>
-
-<hr/>
-
-<!-- ===================== -->
-<!--   CONTACT             -->
-<!-- ===================== -->
-
-<h2>📫 Contato</h2>
-
-<ul>
-  <li>📧 <b>Email:</b> pablohenriques0603@gmail.com</li>
-  <li>💼 <a href="https://linkedin.com/in/pablohsilveira">LinkedIn</a></li>
-  <li>🐙 <a href="https://github.com/PabloHSO">GitHub</a></li>
-</ul>
-
-<p align="center">
-  <i>Construindo sistemas que unem engenharia, dados e impacto real.</i>
-</p>
+<h3 align="center">Construindo soluções que encantam.</h3>
