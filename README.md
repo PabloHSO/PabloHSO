@@ -76,23 +76,24 @@ const pablo = {
 <!-- ===================================================== -->
 
 <!-- VISÃO GERAL DO GITHUB -->
-<h2 align="center">📊 Visão Geral do GitHub</h2>
+<h2>📊 Visão Geral do GitHub</h2>
 
 <div align="center">
 
   <!-- GitHub Stats -->
   <img 
-    height="180em" 
-    src="https://github-readme-stats.vercel.app/api?username=PabloHSO&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"
+    height="170"
+    src="https://github-readme-stats.vercel.app/api?username=PabloHSO&show_icons=true&hide_border=true"
   />
 
   <!-- Top Languages -->
   <img 
-    height="180em" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=PabloHSO&layout=compact&theme=tokyonight&hide_border=true"
+    height="170"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=PabloHSO&layout=compact&hide_border=true&cache_seconds=1800"
   />
 
 </div>
+
 
 <br>
 
@@ -130,42 +131,6 @@ const pablo = {
 <p align="center">
   <img src="https://skillicons.dev/icons?i=aws,docker,githubactions,git" />
 </p>
-
-<hr/>
-
-<!-- ===================================================== -->
-<!--               DISTRIBUIÇÃO DE EXPERTISE               -->
-<!-- ===================================================== -->
-
-<h2>📈 Distribuição de Expertise</h2>
-
-<table>
-<tr>
-  <th>Área de Atuação</th>
-  <th>Proficiência</th>
-  <th>Destaque Principal</th>
-</tr>
-<tr>
-  <td>Backend APIs</td>
-  <td>95%</td>
-  <td>Arquitetura & Performance</td>
-</tr>
-<tr>
-  <td>Dados & SQL</td>
-  <td>90%</td>
-  <td>Modelagem & Otimização</td>
-</tr>
-<tr>
-  <td>Cloud & DevOps</td>
-  <td>85%</td>
-  <td>Deploy & Containerização</td>
-</tr>
-<tr>
-  <td>Frontend</td>
-  <td>75%</td>
-  <td>Angular & TypeScript</td>
-</tr>
-</table>
 
 <hr/>
 
@@ -216,7 +181,7 @@ const pablo = {
 <!--               PROJETOS EM DESTAQUE                    -->
 <!-- ===================================================== -->
 
-<h2 align="center">🚀 Projetos em Destaque</h2>
+<h2>🚀 Projetos em Destaque</h2>
 
 <br/>
 
@@ -271,63 +236,41 @@ e cobertura de testes automatizados.
 <hr/>
 
 <!-- ===================================================== -->
-<!--               ABERTO A OPORTUNIDADES                  -->
+<!--                  OPORTUNIDADES                        -->
 <!-- ===================================================== -->
 
-<h2 align="center">💼 Aberto a Oportunidades</h2>
+## 💼 Oportunidades
 
-<div align="center">
+Estou aberto a oportunidades como:
 
-<table width="70%">
-  <tr>
-  <td align="center">
-  
-  <strong>Backend Engineer</strong><br/>
-  <strong>Software Engineer</strong><br/>
-  <strong>Backend & Full Stack Developer</strong>
-  
-  </td>
-  </tr>
-</table>
+- Backend Engineer  
+- Software Engineer  
+- Backend & Full Stack Developer  
 
-<br/>
+📍 Disponível para trabalho **Remoto**
 
-<p align="center">
-  Disponível para trabalho Remoto
-</p>
+Busco projetos desafiadores onde possa contribuir com arquitetura sólida, escalabilidade e qualidade de código.
 
-<p align="center">
-🌎 Remoto <br/>
-</p>
-
-</div>
-
-<hr/>
+---
 
 <!-- ===================================================== -->
-<!--                    CONTATO PROFISSIONAL               -->
+<!--                        CONTATO                        -->
 <!-- ===================================================== -->
 
-<h2 align="center">🤝 Conecte-se comigo</h2>
-
-<br/>
+## 🤝 Contato
 
 <div align="center">
 
 <a href="mailto:pablohenriques0603@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-informational?style=for-the-badge&logo=gmail&logoColor=white&color=EA4335" />
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 <a href="https://linkedin.com/in/pablohsilveira">
-  <img src="https://img.shields.io/badge/LinkedIn-Perfil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="https://github.com/PabloHSO">
-  <img src="https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <a href="https://pablohso.github.io/PabloHSO/index.html">
-  <img src="https://img.shields.io/badge/Portfólio-Website-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
 </div>
@@ -335,9 +278,11 @@ e cobertura de testes automatizados.
 <br/>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=PabloHSO&style=for-the-badge&color=blue" />
+  <img src="https://komarev.com/ghpvc/?username=PabloHSO&style=for-the-badge"/>
 </p>
 
-<br/>
+---
 
-<h3 align="center">Construindo soluções que encantam.</h3>
+<div align="center">
+  <strong>Construindo soluções com propósito.</strong>
+</div>
